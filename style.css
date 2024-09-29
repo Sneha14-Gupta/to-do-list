@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #114357; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #f29492,
+    #114357
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  /* height: 50%; */
+  padding: 3rem;
+  width: 50%;
+  background-color: #1e3e62;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.header {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.input {
+  padding: 5px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width: 70%;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #fef9d9;
+}
+.btn {
+  width: 10%;
+  height: 2.7rem;
+  border-radius: 1rem;
+  background-color: #f29492;
+  position: absolute;
+  top: 8.6rem;
+  left: 35rem;
+  bottom: 0;
+  right: 0;
+}
+
+.Lists {
+  position: relative;
+}
+.Lists > li {
+  list-style-type: none;
+  margin: 2rem;
+  background-color: #fef9d9;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+.Lists > li > span {
+  position: absolute;
+  left: 42rem;
+  bottom: 0rem;
+  top: 0.3rem;
+  right: 0;
+  cursor: pointer;
+}
