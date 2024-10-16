@@ -6,7 +6,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: #114357; /* fallback for old browsers */
+  background: #555; /* fallback for old browsers */
   background: linear-gradient(
     to right,
     #f29492,
@@ -20,7 +20,7 @@ body {
 main {
   /* height: 50%; */
   padding: 3rem;
-  width: 50%;
+  width: 40%;
   background-color: #1e3e62;
   border-radius: 0.5rem;
   position: relative;
@@ -33,10 +33,10 @@ main {
   margin-right: 1rem;
 }
 .input {
-  padding: 5px;
+  padding: 3px;
   margin-top: 3rem;
   margin-left: 3rem;
-  width: 70%;
+  width: 60%;
   height: 2rem;
   border-radius: 10px;
   background-color: #fef9d9;
@@ -69,7 +69,7 @@ main {
 }
 .Lists > li > span {
   position: absolute;
-  left: 42rem;
+  left: 32rem;
   bottom: 0rem;
   top: 0.3rem;
   right: 0;
